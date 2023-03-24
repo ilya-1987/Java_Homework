@@ -136,29 +136,6 @@ public class task6 {
         return result;
     }
 
-// Хорошо но не пригодилось =)
-//    public static Map<Integer, Integer> sortII(LinkedHashMap<Integer, Integer> data) {
-//        Map<Integer, Integer> res = new LinkedHashMap<>();
-//
-//        do {
-//            int max = 0;
-//            int maxKey = 0;
-//            for (Map.Entry<Integer, Integer> entry :
-//                    data.entrySet()) {
-//                int key = entry.getKey();
-//                int value = entry.getValue();
-//                if (value > max) {
-//                    max = value;
-//                    maxKey = key;
-//                }
-//            }
-//            res.put(maxKey, max);
-//            data.remove(maxKey);
-//        } while (!data.isEmpty());
-//        return res;
-//    }
-
-
     public static void switcher(Map<Integer, Notebook> db) {
         System.out.println("Hello friend =) ");
         HashMap<String, String> fil = new HashMap<>();
